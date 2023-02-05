@@ -513,6 +513,35 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.block {
+  display: block;
+}
+
+.grid {
+  display: grid;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -524,4 +553,19 @@ video {
 
 .underline {
   text-decoration-line: underline;
+}
+
+.grid {
+  position: absolute;
+  width: 600px;
+  height: 300px;
+}
+
+.block {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  /* left: 50px;
+    bottom: 50px; */
+  background-color: aqua;
 }

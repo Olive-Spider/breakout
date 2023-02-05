@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.grid {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+}
+
+.block {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    /* left: 50px;
+    bottom: 50px; */
+    background-color: aqua;
+}
